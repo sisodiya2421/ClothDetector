@@ -1,0 +1,24 @@
+{
+  "name": "ClothDetector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "landing-page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisodiya2421/ClothDetector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sisodiya2421/ClothDetector/issues"
+  },
+  "homepage": "https://github.com/sisodiya2421/ClothDetector#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
