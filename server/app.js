@@ -6,4 +6,4 @@ app.use('/', express.static('./src', {
     index: "index.html"
 }))
 
-app.listen(port, () => console.log(`Cloth Detector listening on port ${port}!`))
+app.listen(port, () => console.log(`Cloth Detector listening on port ${port}`))
