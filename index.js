@@ -1,11 +1,1 @@
-const express = require("express");
-const app = express();
-let port = process.env.PORT;
-
-if (port == null || port == "") {
-    port = 8000;
-}
-
-app.use(express.static("public"))
-
-app.listen(port, () => console.log(`Server listening on port: ${port}`));
+const express=require("express"),app=express();let port=process.env.PORT;null!=port&&""!=port||(port=8e3),app.use(express.static("public")),app.listen(port,()=>console.log(`Server listening on port: ${port}`));
